@@ -1,0 +1,333 @@
+html {
+
+	border: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+
+}
+
+body { margin:0px; }
+
+.img-responsive {
+  background-size: 100% auto;
+  background: linear-gradient( rgba(0, 22, 63, 0.5), rgba(0, 0, 0, 0.9)), url('http://www.servantsofgraceapologetics.org/wp-content/uploads/2014/01/Russell-Wilson1.jpg') center no-repeat;
+  border-top: solid 6px #333;
+  margin-top: 0px;
+  height: 101.2vh;
+  margin-bottom: -10px;
+  border-bottom: solid 6px #fff;
+  display: block;
+}
+
+.image-overlay-text {
+  color: #fff;
+  position: relative;
+  top: 50vh;
+  margin: auto;
+  transform: translateY(-50%);
+  line-height: 1.0;
+  text-align: center;
+  font-family: 'open sans', arial;
+  font-size: 5.8em;
+  text-transform: uppercase;
+  font-weight: 700;
+  max-width: 100%;
+  padding: 0px 25px;
+  opacity: 0.8;
+animation-name: fadeIn;
+}
+
+.for-span {
+  font-family: 'Playfair Display',       serif;
+  font-style: italic;
+  font-size: 1em;
+  text-transform: none;
+  font-weight: 400;
+   animation-name: fadeIn;
+}
+
+.header-line {
+  width: 100px;
+  border: solid 1px #fff;
+  animation-name: slideInLeft;
+}
+
+.image-overlay-subtitle {
+  display: block;
+  color: #fff;
+  font-style: normal;
+  padding: 8px 20px;
+  font-size: 0.25em;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+    line-height: 1.4;
+  animation-name: fadeInUp;
+}
+
+.container-fluid {
+  padding: 10% 5% 25px 5%;
+  height: auto;
+  max-width: 100vh;
+  min-width: 100vw;
+  text-align: center;
+  margin: 0px auto;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.green-column {
+  background: #1DD83C;
+  height: 12px;
+}
+
+.navy-column {
+  background: #00163F;
+  height: 12px;
+}
+
+.grey-column {
+  background: #A5A7AF;
+  height: 12px;
+  padding: 0px;
+}
+
+.col-md-12 {
+  display: hidden;
+  position: relative;
+}
+ .col-md-4 .col-xs-4  {padding: 0px;}
+
+.row { margin: 0px ;
+}
+
+.title-name {
+  font-size: 44px;
+  font-weight: 800;
+  color: #333;
+  margin: 0px auto;
+  display: block;
+  font-family: 'open sans', arial;
+  text-transform: uppercase;
+  width: auto;
+  max-width: 100vh;
+  text-align: center;
+  border-bottom: solid 0px #1DD83C;
+}
+
+.title-description {
+  background-color: #fff;
+  color: black;
+  padding: 10px 50px;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  font-family: 'Lora', serif;
+
+}
+
+.title-description h1 {
+  text-align: center;
+  background-color: #fff;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5px;
+  font-size: 125%;
+  padding: 0px 20px;
+  position: relative;
+  font-style: italic;
+  font-weight: 400;
+  z-index: 99;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.title-description .theline {
+  border-top: solid 1px #333;
+  width: 120%;
+  height: 1px;
+  text-align: center;
+  margin-top: -1px;
+  margin-left: -20%;
+  margin-right: auto;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  overflow: hidden;
+}
+
+.intro-para {
+   margin: 0px 10% 0px 15%;
+  padding: 0px 0px 5% 4%;
+  font-size: 110%;
+  font-weight: 700;
+  text-align: left ;
+  width: 75% ;
+  font-family: 'Lora', serif;
+   animation-name: slideInLeft;
+}
+
+p
+{
+    opacity:0;
+    transition: opacity 0.8s;
+}
+
+#body:before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border-left: 3px solid #1DD83C;
+}
+
+#body {
+  height: auto;
+  width: 75%;
+  text-align: left;
+  margin: 0px 10% 0px 15%;
+  padding: 0px 0px 0px 4%;
+  font-family: 'Lora', serif;
+  font-size: 100%;
+  font-weight: 400;
+  color: #333;
+  border-left: solid 3px #00163F;
+  position: relative;
+}
+
+#body:after {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: -0px;
+  left: -6px;
+  right: -0x;
+  bottom: -0px;
+  border-left: 3px solid #A5A7AF;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+footer {
+  height: auto;
+  background-color: #fff;
+  width: 75%;
+  text-align: center;
+  margin: 5% auto 10% auto;
+  Padding: 0px;
+  font-family: 'open sans', arial;
+  font-size: 110%;
+}
+
+a {
+  color: #333;
+  font-weight: 800;
+  padding: 8px ;
+  border: solid 2px #333;
+  transition: color .1s ease-out, background .1s ease-in;
+  animation-name: fadeUp;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #333;
+  text-decoration: none ;
+  transition: color .1s ease-out .1s ease-in, background .1s ease-in .1s ease-in;
+}
+
+.col-md-12 {
+  padding: 0px;
+}
+
+.col-xs-12 {
+  width: 90%;
+  padding: 0px;
+}
+
+.footer-green-column {
+display: none;
+}
+
+.footer-navy-column {
+display: none;
+}
+
+.footer-grey-column {
+  display: none;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px)
+{
+  .col-12 {width:100%;
+    display: hidden;
+  }
+  
+  #body {
+    width: 100%;
+    margin: 0px 5% 0px 10%;
+    padding: 0% 5%;
+  }
+}
+
+@media only screen and (max-width: 480px)
+{
+  
+  body { max-width: 100%;}
+  .image-overlay-text {
+    font-size: 3.6em;
+    padding: 0px 1%;
+    max-width: 100%;
+    margin: -50% auto;
+    text-align: center;
+}
+
+  .img-responsive {width: 100%;}
+  .col-md-12 {width:100%;
+    padding: 0px 4%;
+  }
+  .image-overlay-text {
+    width: 80%;
+    text-wrap: wrap;
+  }
+  #body {
+    width: 100%;
+    margin: 0px 0% 0px 0%;
+    padding: 0% 5%;
+    border:0px;
+  }
+  
+  #body:before, #body:after {display: none;}
+  
+  .title-name {
+    padding: 2%;
+    max-width: 100%;
+  }
+  
+  .title-description h1 {
+  padding: 0px 10px;
+}
+  
+    .title-description .theline {
+ max-width: 100%;
+}
+  
+  .container-fluid {padding: 10% 0px;
+  box-sizing: border-box;}
+  
+}
