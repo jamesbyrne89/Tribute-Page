@@ -36,9 +36,8 @@ body { margin:0px; }
   opacity: 0.8;
 animation-name: fadeIn;
 }
-
 .for-span {
-  font-family: 'Playfair Display',       serif;
+  font-family:        serif;
   font-style: italic;
   font-size: 1em;
   text-transform: none;
@@ -124,7 +123,7 @@ animation-name: fadeIn;
   z-index: 1;
   overflow: hidden;
   display: inline-block;
-  font-family: 'Lora', serif;
+  font-family: 'Merriweather', serif;
 
 }
 
@@ -166,7 +165,7 @@ animation-name: fadeIn;
   font-weight: 700;
   text-align: left ;
   width: 75% ;
-  font-family: 'Lora', serif;
+  font-family: 'Merriweather', serif;
    animation-name: slideInLeft;
 }
 
@@ -193,7 +192,7 @@ p
   text-align: left;
   margin: 0px 10% 0px 15%;
   padding: 0px 0px 0px 4%;
-  font-family: 'Lora', serif;
+  font-family: 'Merriweather', serif;
   font-size: 100%;
   font-weight: 400;
   color: #333;
@@ -226,10 +225,27 @@ footer {
   background-color: #fff;
   width: 75%;
   text-align: center;
-  margin: 5% auto 10% auto;
-  Padding: 0px;
+  margin: 5% auto;
+  padding: 0px;
   font-family: 'open sans', arial;
   font-size: 110%;
+}
+
+#credit {
+  margin-top: 100px;
+  text-align: center;
+   font-family: 'open sans', arial;
+   font-weight: bold;
+   display: block;
+}
+
+#credit a {
+  text-align: center;
+   font-family: 'open sans', arial;
+   font-weight: bold;
+   background-color: none;
+   border: none;
+
 }
 
 a {
